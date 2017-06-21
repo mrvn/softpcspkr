@@ -1,2 +1,2 @@
 data/birds/wavs/* usr/share/sounds/softpcspkr
-daemon/softpcspkr.pl usr/bin/softpcspkr
+daemon/softpcspkr usr/bin/
