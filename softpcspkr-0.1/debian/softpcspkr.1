@@ -1,0 +1,76 @@
+'\" t
+.\"     Title: SOFTPCSPKR
+.\"    Author: Thomas Kremer <softpcspkr@xorg.c-informatik.de>
+.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
+.\"      Date: 06/21/2017
+.\"    Manual: softpcspkr User Manual
+.\"    Source: softpcspkr
+.\"  Language: English
+.\"
+.TH "SOFTPCSPKR" "1" "06/21/2017" "softpcspkr" "softpcspkr User Manual"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+softpcspkr \- software PC speaker daemon
+.SH "SYNOPSIS"
+.HP \w'\fBsoftpcspkr\fR\ 'u
+\fBsoftpcspkr\fR [\fB\fIdir\fR\fR]
+.SH "DESCRIPTION"
+.PP
+\fBsoftpcspkr\fR
+uses the sftwrspkr kernel module\*(Aqs dummy PC speaker device to emulate a PC speaker with the soundcard, using more friendly sounds\&.
+.SH "OPTIONS"
+.PP
+The program locates the sftwrspkr event device and plays a sound each time a TONE event is invoked, thereby simulating a PC speaker using the sound card\&. The user executing the program must have read access to the event device, i\&.e\&. be a member of the "audio" group\&.
+.PP
+\fB\fIdir\fR\fR
+.RS 4
+Specifies a directory with wav files to choose from\&. For every event one file is randomly chosen and played\&. If this option is not given, some generic tone is made instead\&.
+.RE
+.SH "FILES"
+.PP
+/usr/share/sounds/softpcspkr/
+.RS 4
+Example directory of sounds\&.
+.RE
+.SH "BUGS"
+.PP
+Currently the program is quite picky about the format of the wav files\&.
+.SH "SEE ALSO"
+.PP
+\fBaplay\fR(1)
+.SH "AUTHOR"
+.PP
+\fBThomas Kremer\fR <\&softpcspkr@xorg\&.c\-informatik\&.de\&>
+.RS 4
+Wrote this manpage for the Debian system\&.
+.RE
+.SH "COPYRIGHT"
+.br
+Copyright \(co 2017 Thomas Kremer
+.br
+.PP
+This manual page was written for the Debian system (and may be used by others)\&.
+.PP
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License, Version 2 or (at your option) 3 as published by the Free Software Foundation\&.
+.PP
+On Debian systems, the complete text of the GNU General Public License can be found in
+/usr/share/common\-licenses/GPL\&.
+.sp
