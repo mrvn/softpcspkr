@@ -1,0 +1,2 @@
+# sftwrspkr virtual pcspeaker device. Should be in group audio.
+SUBSYSTEM=="input", ATTRS{phys}=="sftwrspkr/input0", GROUP:="audio", MODE:="0660", SYMLINK+="input/by-path/virtual-sftwrspkr-event"

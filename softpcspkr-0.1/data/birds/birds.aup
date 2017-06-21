@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="birds_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="27.4500000000" vpos="0" h="0.0000000000" zoom="29.4987376143" rate="44100.0" snapto="off" selectionformat="Samples">
+	<tags/>
+	<wavetrack name="76_Pista_76_converted" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="1210933">
+				<waveblock start="0">
+					<simpleblockfile filename="e00001d5.au" len="285541" min="-0.771393" max="0.791107" rms="0.036129"/>
+				</waveblock>
+				<waveblock start="285541">
+					<simpleblockfile filename="e0000933.au" len="285541" min="-0.676147" max="0.668671" rms="0.031363"/>
+				</waveblock>
+				<waveblock start="571082">
+					<simpleblockfile filename="e0000749.au" len="319925" min="-0.646576" max="0.637604" rms="0.047784"/>
+				</waveblock>
+				<waveblock start="891007">
+					<simpleblockfile filename="e0000950.au" len="319926" min="-0.757233" max="0.751587" rms="0.053514"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="76_Pista_76_converted" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="1210933">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fef.au" len="285541" min="-0.771423" max="0.791107" rms="0.036135"/>
+				</waveblock>
+				<waveblock start="285541">
+					<simpleblockfile filename="e0000cca.au" len="285541" min="-0.676147" max="0.668671" rms="0.031361"/>
+				</waveblock>
+				<waveblock start="571082">
+					<simpleblockfile filename="e0000901.au" len="319925" min="-0.646606" max="0.637726" rms="0.047769"/>
+				</waveblock>
+				<waveblock start="891007">
+					<simpleblockfile filename="e00005ae.au" len="319926" min="-0.757416" max="0.751587" rms="0.053513"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Textspur" numlabels="26" height="118" minimized="0" isSelected="1">
+		<label t="0.30000000" t1="1.01000000" title="1"/>
+		<label t="1.29000000" t1="1.70000000" title="2"/>
+		<label t="1.85000000" t1="2.51000000" title="4"/>
+		<label t="2.61000000" t1="3.06000000" title="5"/>
+		<label t="3.17000000" t1="4.31000000" title="6"/>
+		<label t="4.32000000" t1="5.36000000" title="7"/>
+		<label t="5.45000000" t1="6.49000000" title="8"/>
+		<label t="6.49000000" t1="6.85000000" title="9"/>
+		<label t="7.00000000" t1="7.35000000" title="10"/>
+		<label t="7.51000000" t1="7.98000000" title="11"/>
+		<label t="8.62000000" t1="9.21000000" title="12"/>
+		<label t="9.39000000" t1="9.82000000" title="13"/>
+		<label t="9.91000000" t1="12.71000000" title="14"/>
+		<label t="13.16000000" t1="13.86000000" title="15"/>
+		<label t="14.15000000" t1="14.60000000" title="16"/>
+		<label t="15.14000000" t1="15.76000000" title="17"/>
+		<label t="16.08000000" t1="16.67000000" title="18"/>
+		<label t="16.89000000" t1="17.68000000" title="19"/>
+		<label t="17.64000000" t1="18.31000000" title="20"/>
+		<label t="18.61000000" t1="19.78000000" title="21"/>
+		<label t="19.95000000" t1="20.67000000" title="22"/>
+		<label t="20.92000000" t1="21.57000000" title="24"/>
+		<label t="21.77000000" t1="25.01000000" title="25"/>
+		<label t="25.13000000" t1="25.75000000" title="27"/>
+		<label t="25.77000000" t1="25.93000000" title="28"/>
+		<label t="26.02000000" t1="27.45000000" title="29"/>
+	</labeltrack>
+</project>

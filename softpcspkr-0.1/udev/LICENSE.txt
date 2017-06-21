@@ -1,0 +1,2 @@
+This udev rule is not considered to reach the threshold of originality. It is therefore released into the public domain. Alternatively, it is released under the terms of the Creative Commons Zero 1.0 Universal License.
+Author: Thomas Kremer

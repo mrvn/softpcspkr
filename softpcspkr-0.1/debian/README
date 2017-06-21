@@ -1,0 +1,7 @@
+The Debian Package softpcspkr
+----------------------------
+
+This package contains a kernel module for a dummy PC speaker and a daemon
+that uses it to provide custom beeps in place of the default ones.
+
+ -- Thomas Kremer <softpcspkr@xorg.c-informatik.de>  Wed, 21 Jun 2017 12:22:20 +0200

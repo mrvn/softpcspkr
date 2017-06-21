@@ -1,0 +1,10 @@
+softpcspkr for Debian
+---------------------
+
+This source package builds to two binary-independent packages:
+  - sftwrspkr-dkms contains the kernel module source for use with dkms.
+  - softpcspkr contains the userspace daemon (perl).
+
+
+ -- Thomas Kremer <softpcspkr@xorg.c-informatik.de>  Wed, 21 Jun 2017 12:22:20 +0200
+

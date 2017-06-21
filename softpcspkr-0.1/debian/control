@@ -1,0 +1,25 @@
+Source: softpcspkr
+Section: sound
+Priority: optional
+Maintainer: Thomas Kremer <softpcspkr@xorg.c-informatik.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/tkremer/softpcspkr/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/softpcspkr.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/softpcspkr.git;a=summary
+
+Package: softpcspkr
+Architecture: all
+Depends: alsa-utils, sftwrspkr-dkms, ${misc:Depends}
+Description: softpcspkr daemon
+ softpcspkr is a daemon that polls a sftwrspkr device to
+ emulate PC speaker beeps.
+
+Package: sftwrspkr-dkms
+Architecture: all
+Depends: dkms, ${misc:Depends}
+Suggests: softpcspkr
+Description: sftwrspkr kernel module
+ sftwrspkr is a kernel module that provides a dummy PC speaker
+ event device for userspace daemons to poll.
+
