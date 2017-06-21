@@ -19,11 +19,13 @@ include /usr/share/dpkg/default.mk
 
 # main packaging script based on dh7 syntax
 %:
-	dh $@ 
+	dh $@ --with dkms
 
-override_dh_auto_configure:
-	dh_dkms
-	dh_auto_configure
+#	dh $@ 
+
+#override_dh_auto_configure:
+#	dh_dkms
+#	dh_auto_configure
 
 # debmake generated override targets
 # This is example for Cmake (See http://bugs.debian.org/641051 )
